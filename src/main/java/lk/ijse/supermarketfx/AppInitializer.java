@@ -14,6 +14,7 @@ public class AppInitializer extends Application {
         Parent parent = FXMLLoader.load(getClass().getResource("/view/Dashboard.fxml"));
         primaryStage.setScene(new Scene(parent));
         primaryStage.show();
+
     }
 
 }
